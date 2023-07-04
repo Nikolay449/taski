@@ -10,7 +10,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['158.160.73.123', '127.0.0.1', 'localhost', 'taskbk.ddns.net']
 
-# Application definition
+# Application
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
