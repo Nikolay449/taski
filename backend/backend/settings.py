@@ -1,6 +1,8 @@
+# flake8:
 import os
-from dotenv import load_dotenv
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -11,7 +13,6 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='token')
 DEBUG = True
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOST', '').split()
-
 
 # Application definition
 
